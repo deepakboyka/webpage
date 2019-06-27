@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body
+        {
+            padding-top: 70px;
+            background-color: gold;
+        }
+        #div
+        {
+            background-color:honeydew;
+            border: 2px solid;
+            width:700px;
+            padding-bottom: 150px;
+        
+        }
+        input{
+            padding: 5px;
+        }
+        #age
+        {
+            margin-left: 30px;
+        }
+        #first
+        {
+            padding-left:80px;
+        }
+        select{
+            padding:5px;
+        }
+        #fav
+        {
+            margin-left:
+        }
+        #fav1
+        {
+            margin-right: 225px;
+        }
+        #aver
+        {
+            margin-right: 20px;
+        }
+        #batman
+        {
+            margin-right:300px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div id="div">
+        <P>lets find out whether you like batman cosmic series!</P>
+        <form id="form">
+            <label for="f1">name : </label><input type="text" name="name"><br>
+                                   <br>
+                                   <br>
+            <label for="use">email : </label><input type="text" name="e-mail"><br>
+                         <br>
+                         <br>
+            <label for="age"><span id="age">AGE</span>  :  </span><input type="date" name="age" min="1990-01-01"
+                    max="2019-01-01" id="first"><br></label><br><br>
+            <label for="fave"><span id="fav">who is your favourite robin</span> : <select name="fav" id="fav1">
+                                            <option value="dan">dan grayson</option>
+                                             <option value="lal">jetalal</option>
+                                             <option value="pidi">pidi</option>
+                                         </select><br></label><br><br>
+            best <input type="radio" name="best"><br>
+         <span>average</span><input type="radio" name="average" id="aver"><br>
+            worst<input type="radio" name="worst" id=""><br><br><br>
+            <label><span>what do you like the most about batman</span> : <select name="fav" id="batman">
+                                                        <option value="dan">gadget</option>
+                                                        <option value="lal">custom</option>
+                                                        <option value="pidi">car and bike</option>
+                                                    </select></label>
+        </form>
+    </div>
+    </center>
+</body>
+</html>
